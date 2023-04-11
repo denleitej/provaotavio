@@ -1,0 +1,82 @@
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    color: paleturquoise;
+}
+
+nav {
+    background-color: rgb(115, 115, 243);
+    margin-top: -15px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+img#baleia{
+    height: 350px;
+    width: 100%;
+    
+}
+
+main {
+    display: flex;
+    background-color: beige;
+
+  }
+
+  div#imagens{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .linha1{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .linha2{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .linha3{
+        display: flex;
+        flex-direction: row;
+    }
+  
+  img {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+  }
+
+
+  figcaption {
+    color: white;
+    background-color: blue;
+    margin-top: 5px;
+    text-align: center;
+  }
+
+
+
+
+div#texto {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+footer {
+    background-color: blue;
+}
+
+footer div{
+    color: blue;
+}
