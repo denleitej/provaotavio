@@ -1,39 +1,93 @@
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-evenly;
-    color: paleturquoise;
+*{
+    margin: 0;
+    padding: 0;
 }
 
 nav {
     background-color: rgb(115, 115, 243);
-    margin-top: -15px;
-    margin-left: -15px;
-    margin-right: -15px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
-img#baleia{
-    height: 350px;
+nav ul {
+    color: paleturquoise;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 30px;
+    width: 90%;
+}
+
+nav ul li{
+    font-size: 13px;
+    color: white;
     width: 100%;
-    
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li:not(:last-child){
+    border-right: solid white 1px;
+}
+
+nav ul li:hover{
+    background-color: darkblue;
+    cursor: pointer;
+}
+
+
+
+header{
+    background-image: url(https://images6.alphacoders.com/342/342086.jpg);
+    width: 100%;
+    height: 350px;
+    background-position: center;
+    background-size: cover;
 }
 
 main {
     display: flex;
     background-color: beige;
+    height: 745px;
 
   }
 
-  div#imagens{
+div#texto {
     width: 50%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    height: 400px;
+    padding: 20px;
+}
+
+div#texto h1{
+    color: blue;
+    margin-bottom: 30px;
+}
+
+div#texto p{
+    font-size: 20px;
+}
+
+  div#imagens{
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    padding: 10px;
     }
 
     .linha1{
         display: flex;
         flex-direction: row;
+        justify-content: space-evenly;
     }
     
     .linha2{
@@ -47,8 +101,8 @@ main {
     }
   
   img {
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: 130px;
     margin: 5px;
   }
 
@@ -58,25 +112,14 @@ main {
     background-color: blue;
     margin-top: 5px;
     text-align: center;
+    justify-content: space-around;
   }
-
-
-
-
-div#texto {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 
 
 
 footer {
     background-color: blue;
-}
-
-footer div{
-    color: blue;
+    height: 80px;
+    width: 100%;
+    position: fixed;
 }
